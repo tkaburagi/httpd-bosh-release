@@ -1,5 +1,5 @@
 check process httpd
   with pidfile /var/vcap/sys/run/httpd/pid
-  start program "/var/vcap/jobs/shttpd/bin/ctl start"
+  start program "/var/vcap/jobs/httpd/bin/ctl start"
   stop program "/var/vcap/jobs/httpd/bin/ctl stop"
   group vcap

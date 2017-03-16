@@ -3,7 +3,7 @@ name: httpd
 templates:
   ctl.erb: bin/ctl
 packages:
-- simple-http-server
+- httpd
 properties:
   server.port:
     description: "Port on which server is listening"
