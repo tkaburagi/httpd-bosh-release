@@ -4,4 +4,4 @@ name: httpd
 dependencies:
 
 files:
-- simple-http-server/index.html
+- httpd/index.html
