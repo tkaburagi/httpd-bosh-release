@@ -1,0 +1,9 @@
+---
+name: httpd
+templates:
+  ctl.erb: bin/ctl
+packages:
+properties:
+  server.port:
+    description: "Port on which server is listening"
+    default: 8080
